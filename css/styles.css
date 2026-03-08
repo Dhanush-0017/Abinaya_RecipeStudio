@@ -331,7 +331,6 @@ section p {
   text-align: center;
   border: none;
   border-radius: var(--card-radius);
-  cursor: pointer;
   transition: background-color var(--transition-normal), color var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 .btn:focus-visible {
