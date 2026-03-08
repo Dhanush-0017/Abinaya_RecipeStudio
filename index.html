@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Studio | Home</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <h1 class="site-title">Recipe Studio</h1>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="about.html">About &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-heading">
+    <h2 id="hero-heading">Welcome to Recipe Studio</h2>
+    <p class="hero-tagline">Discover, save, and follow great recipes—all in one place.</p>
+    <a href="recipes.html" class="btn btn-primary">Browse Recipes</a>
+  </section>
+
+  <main id="main-content">
+    <div class="highlights-bar" aria-label="Key features">
+      <div class="highlight-item">
+        <span class="highlight-icon" aria-hidden="true">🌿</span>
+        <div class="highlight-text">
+          <strong>Fresh &amp; Simple</strong>
+          <p>Everyday pantry staples, zero fuss</p>
+        </div>
+      </div>
+      <div class="highlight-item">
+        <span class="highlight-icon" aria-hidden="true">📖</span>
+        <div class="highlight-text">
+          <strong>Clear Instructions</strong>
+          <p>Step-by-step for any skill level</p>
+        </div>
+      </div>
+      <div class="highlight-item">
+        <span class="highlight-icon" aria-hidden="true">📱</span>
+        <div class="highlight-text">
+          <strong>Any Device</strong>
+          <p>Works great on phone or laptop</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="intro" aria-labelledby="intro-heading">
+      <span class="chapter-label" aria-hidden="true">Chapter 01</span>
+      <h2 id="intro-heading">Why Recipe Studio?</h2>
+      <p>Because the best cooking happens when you’re not squinting at a tiny screen or scrolling through a novel to find the next step. Recipe Studio keeps things simple: one clear list of ingredients, one clear list of steps, and a layout that works whether you’re in the kitchen with your phone or at the table with your laptop. No fluff, no pop-ups—just recipes you can actually follow.</p>
+      <blockquote class="pull-quote">
+        "A recipe isn’t just a list of steps—it’s an invitation to slow down, pay attention, and make something with your hands."
+      </blockquote>
+    </section>
+
+    <div class="section-divider" aria-hidden="true">✦</div>
+
+    <section class="featured-recipes" aria-labelledby="featured-heading">
+      <span class="chapter-label" aria-hidden="true">Chapter 02</span>
+      <h2 id="featured-heading">Featured Recipes</h2>
+      <div class="card-grid">
+        <article class="card recipe-card">
+          <img src="images/pasta.jpg" alt="Tomato basil pasta in a white bowl." class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Tomato Basil Pasta</h3>
+            <p class="card-description">Simple, fresh pasta with ripe tomatoes and basil. Ready in under 30 minutes.</p>
+            <a href="recipe-pasta.html" class="btn btn-secondary">View Recipe</a>
+          </div>
+        </article>
+        <article class="card recipe-card">
+          <img src="images/pizza.jpg" alt="Margherita pizza with tomato, mozzarella, and basil." class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Homemade Margherita Pizza</h3>
+            <p class="card-description">Classic pizza with tomato base, fresh mozzarella, and basil. Perfect for pizza night.</p>
+            <a href="recipe-pizza.html" class="btn btn-secondary">View Recipe</a>
+          </div>
+        </article>
+        <article class="card recipe-card">
+          <img src="images/BIRYANI.JPG" alt="Hyderabad chicken dum biryani with fragrant rice and spices." class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Hyderabad Chicken Dum Biryani</h3>
+            <p class="card-description">Layered rice and marinated chicken cooked dum-style. A Hyderabad classic with saffron and herbs.</p>
+            <a href="recipe-biryani.html" class="btn btn-secondary">View Recipe</a>
+          </div>
+        </article>
+      </div>
+      <p class="section-cta"><a href="recipes.html" class="btn btn-primary">See All Recipes</a></p>
+    </section>
+
+    <!-- Optional bonus: AI Assistant Panel (Cooking tips / Help) – structure for intent cards and responses -->
+    <div class="section-divider" aria-hidden="true">✦</div>
+
+    <section class="cooking-tips" aria-labelledby="tips-heading">
+      <span class="chapter-label" aria-hidden="true">Chapter 03</span>
+      <h2 id="tips-heading">Cooking Tips</h2>
+      <p>Quick ideas to get better results in the kitchen.</p>
+      <div class="tips-list">
+        <div class="tip-card">
+          <h3>Measuring</h3>
+          <p>Use level measures for flour and spoon measures for liquids for consistent results.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Timing</h3>
+          <p>Read the full recipe before you start and prep ingredients in the order they’re used.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Tasting</h3>
+          <p>Taste and adjust seasoning near the end of cooking—salt and acid can transform a dish.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Heat</h3>
+          <p>Let your pan heat fully before adding oil or food—prevents sticking and builds better browning.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Recipe Studio &mdash; Project by AB &amp; DH</p>
+  </footer>
+</body>
+</html>
