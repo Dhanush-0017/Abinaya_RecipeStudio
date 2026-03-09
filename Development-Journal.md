@@ -143,6 +143,3 @@ From our board metrics:
 - **Repo:** [GitHub — Dhanush-0017/Abinaya_RecipeStudio](https://github.com/Dhanush-0017/Abinaya_RecipeStudio)  
 - **Course:** CSC 4370/6370 Web Programming, Spring 2026; 17-day schedule and Kanban guide.
 
----
-
-*This Development Journal documents our design decisions and process for the Recipe Studio project. You can copy this content into a Word document and save as **Development Journal.docx** for submission if required.*
