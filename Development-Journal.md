@@ -3,7 +3,6 @@
 **Course:** CSC 4370/6370 Web Programming · Spring 2026  
 **Project:** Recipe Studio (Track A + Story Pack)  
 **Team:** M. Abhinaya (Project Leader), Dhanush Nagarajan (Team Member)  
-**Proposal submitted:** February 23, 2026 · **Project due:** March 8, 2026  
 
 ---
 
